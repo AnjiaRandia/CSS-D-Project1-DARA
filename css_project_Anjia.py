@@ -3,6 +3,7 @@
 """
 Created on Tue Oct 22 11:11:11 2024
 
+DARA PROJECT OPTION 1: IMDB Data
 """
 
 import pandas as pd
