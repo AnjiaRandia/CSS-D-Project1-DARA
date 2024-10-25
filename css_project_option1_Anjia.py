@@ -2,14 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 22 11:11:11 2024
+Author: Anjia Randia RABARISOA
 
 DARA PROJECT OPTION 1: IMDB Data
 """
 
 import pandas as pd
 
+# loading the data
 df = pd.read_csv('/home/astrostudent1/DARA2024/movie_dataset.csv')
 print(df.info())
+
+"""
+DATA CLEANING
+"""
 
 # removing the spaces from the column names
 df['Revenue_Millions'] = df["Revenue (Millions)"]
