@@ -22,4 +22,9 @@ Contains a dataset about a certain number of movies, with their ranks, title, ge
 
 ## css_project_option1_Anjia.py
 contains the python code used to answer the above questions.\
+### Data Cleaning
+- Renamed the "Revenue (Millions)" and "Runtime (Minutes)" to "Revenue_Millions" and "Runtime_mins" for a better reading
+- Removed the duplicates in case there are some
+- The NANs in the "Revenue_Millions" column were replaced with the mean value to get no errors when calculating the average revenues
+- The NANs in the "Metascore" were replaced with the median value
 
