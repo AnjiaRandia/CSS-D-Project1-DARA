@@ -35,7 +35,7 @@ print("min metascore: ", df["Metascore"].min())
 print("max metascore: ", df["Metascore"].max())
 print("mean metascore: ", df["Metascore"].median())
 
-meta = df["Metascore"].mean()
+meta = df["Metascore"].median()
 df["Metascore"].fillna(meta, inplace=True)
 
 # rreplacing revenue nans into mean value
